@@ -61,7 +61,7 @@ class Basket extends StatelessWidget {
                               padding: EdgeInsets.only(
                                   left: left + 10, top: top + 50),
                               child: Text(
-                                "The total amount : ${state.price}",
+                                "The total amount : ${state.price.round()}",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
